@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SportView">
+        <!--画笔背景颜色-->
+        <attr name="paintColorBg" format="color"/>
+        <!--画笔填充颜色-->
+        <attr name="paintColorFill" format="color"/>
+        <!--画笔文字颜色-->
+        <attr name="paintTextFill" format="color"/>
+        <!--填充宽度-->
+        <attr name="paintWidth" format="dimension"/>
+        <!--显示步数 文字大小-->
+        <attr name="paintTextSize" format="dimension"/>
+    </declare-styleable>
+
+   <!-- <declare-styleable name="ToggleView">
+        &lt;!&ndash;关闭背景颜色&ndash;&gt;
+        <attr name="switchCloseBg" format="dimension|color"/>
+        &lt;!&ndash;打开背景颜色&ndash;&gt;
+        <attr name="switchOpenBg" format="dimension|color"/>
+        &lt;!&ndash;圆点背景颜色&ndash;&gt;
+        <attr name="dotBg" format="dimension|color"/>
+        &lt;!&ndash;画笔宽度&ndash;&gt;
+        <attr name="paintWidth" format="dimension"/>
+        &lt;!&ndash;动画时间&ndash;&gt;
+        <attr name="animatorTime" format="integer"/>
+        &lt;!&ndash;圆点间隙&ndash;&gt;
+        <attr name="dotGap" format="dimension"/>
+
+    </declare-styleable>-->
+
+</resources>

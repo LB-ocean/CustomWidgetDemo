@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <com.example.widgetdemo.widget.SportView
+        android:id="@+id/sportView2_sv"
+        android:layout_height="200dp"
+        android:layout_width="200dp"
+        app:paintColorBg = "@android:color/darker_gray"
+        app:paintColorFill = "@android:color/holo_red_dark"
+        app:paintTextFill = "@android:color/holo_orange_dark"
+        app:paintWidth = "20dp"
+        app:paintTextSize = "20sp"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/ok_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击开始"
+        android:textSize="20sp"
+        android:background="@color/colorPrimary"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="步数调整"
+        android:textColor="@color/black"
+        />
+    <SeekBar
+        android:layout_margin="10dp"
+        android:id="@+id/sportView2_sb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+
+        />
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="宽度调整"
+        android:textColor="@color/black"
+        />
+    <SeekBar
+        android:layout_margin="10dp"
+        android:id="@+id/sportView2_sb2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        />
+
+</LinearLayout>

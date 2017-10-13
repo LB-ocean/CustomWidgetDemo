@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/buttonPieChart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="圆饼"/>
+
+    <Button
+        android:id="@+id/buttonKaleidoscope"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="万花筒"/>
+
+    <Button
+        android:id="@+id/buttonEightDiagrams"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="太极八卦"/>
+
+    <Button
+        android:id="@+id/buttonSpiderWeb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="雷达"/>
+
+    <Button
+        android:id="@+id/buttonSportView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="计步器"/>
+
+    <Button
+        android:id="@+id/buttonBezier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="贝塞尔曲线"/>
+</LinearLayout>
