@@ -20,6 +20,10 @@
 ### 贝塞尔曲线 效果图
 ![Image](https://github.com/LB-ocean/CustomWidgetDemo/blob/master/picture/BezierGif.gif)
 
+### 计步器 效果图
+![Image](https://github.com/LB-ocean/CustomWidgetDemo/blob/master/picture/SportViewGif.gif)
+
+
 #### 心得体会
 
 开始学自定义view的时候,感觉这东西好难,自己心里难免会产生一些抵触,也撞了很多墙;俗话说,干什么一定要坚持下来,看一遍不懂，就看10遍,肯定会有收获的
